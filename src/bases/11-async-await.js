@@ -20,9 +20,7 @@ const getImagen = async() => {
     
   } catch (error) {
     // manejo del error
-    const imError = document.createElement('imError');
-    imError.src = 'https://i.stack.imgur.com/6M513.png';
-    document.body.append(imError)
+    
   }
 }
 
